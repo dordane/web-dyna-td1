@@ -5,6 +5,9 @@
     <title>Hello</title>
 </head>
 
+<!--
+Pour obtenir des couleurs facilement
+
 <form method="GET">
     <label for="color">Color : </label>
     <input type="color" id="html5colorpicker" onchange="clickColor(0, -1, -1, 5)" value="#ff0000" name="Color">
@@ -12,7 +15,7 @@
     <input type="number" value="" name="size" id="size">
     <input type="submit" value="Valider">
 </form>
-
+-->
 
 <body>
 <a href="?Color=%23ff0000&size=15&message=Bonjour">Message 1</a>
