@@ -23,7 +23,7 @@
       <a href="?Color=%230080ff&size=50&message=Marche">Message 3</a>
           <?php
           if (empty($_GET)) {
-          echo "test";
+          echo "Erreur ! Veuillez entrer des paramètres";
       }
       else{
           echo "<div style='font-size: {$_GET["size"]}px; color: {$_GET["Color"]}'>{$_GET["message"]}</div>";
