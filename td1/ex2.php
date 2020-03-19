@@ -19,7 +19,7 @@
   <a href="?Color=%23ff0000&size=15&message=Bonjour">Message 1</a>
   <a href="?Color=%2339ff00&size=30&message=ça">Message 2</a>
   <a href="?Color=%230080ff&size=50&message=Marche">Message 3</a>
-  <a href="?&message=Sans couleurs">Sans couleur sans size</a>
+  <a href="?&message=Sans couleurs">Sans couleur sans sizee</a>
   <?php
   if (empty($_GET)) {
     echo "Erreur ! Veuillez entrer des paramètres";
