@@ -2,12 +2,11 @@ git status
 
 pause
 
-git add -A
+git add .
 
 pause
 
 git commit -m "sauvegarde"
-git commit -a
 
 pause
 
