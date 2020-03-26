@@ -19,7 +19,7 @@
 </form>
 <?php
 if (empty($_POST)) {
-  echo "Erreur ! Veuillez entrer des paramètres";
+  echo "Erreur ! Veuillez entrer des paramètress";
 }
 if (empty($_POST["size"] and $_POST["Color"])) {
   echo "<div style='font-size: 12px; color: black'>{$_POST["message"]}</div>";
