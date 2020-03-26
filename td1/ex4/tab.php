@@ -10,16 +10,12 @@
 	<hr>
 	<hr>
 	<hr>
-
+	
 	<?php
 	echo "<p>{$_GET["nbColonnes"]}-{$_GET["nblignes"]}</p>";
 	echo "<table border='1'>
 	<tbody>
-	<tr>"
-	for($i=0;$i<$max;$i++){
-		
-	}
-
+	<tr>
 	<td>1-1</td>
 	<td>1-2</td>
 	</tr>
@@ -28,8 +24,7 @@
 	<td>2-2</td>
 	</tr>
 	</tbody>
-	</table>
-	"
+	</table>"
 	?>
 		
 </body>
