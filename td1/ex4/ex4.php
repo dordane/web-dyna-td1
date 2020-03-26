@@ -8,7 +8,7 @@
 	<a href="?nblignes=2&nbColonnes=2">5x5</a>
 	<a href="?nblignes=2&nbColonnes=2">10x8</a>
 	<?php
-	echo "Erreur ! Veuillez entrer des paramètres";  
+	echo "Colonnes $_GET["nbColonnes"] lignes";
 	<table border='1'>
 	<tbody>
 	<tr>
