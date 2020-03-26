@@ -2,7 +2,7 @@ git status
 
 pause
 
-git add .
+git add -A
 
 pause
 
