@@ -8,8 +8,10 @@
 	<a href="?nblignes=2&nbColonnes=2">5x5</a>
 	<a href="?nblignes=2&nbColonnes=2">10x8</a>
 	<?php
-	echo "Colonnes $_GET["nbColonnes"] lignes";
-	<table border='1'>
+	echo "<div style='font-size: {$_GET["size"]}px; color: {$_GET["Color"]}'>{$_GET["message"]}</div>";
+
+	?>
+		<table border='1'>
 	<tbody>
 	<tr>
 	<td>1-1</td>
@@ -21,6 +23,5 @@
 	</tr>
 	</tbody>
 	</table>
-	?>
 </body>
 </html>
