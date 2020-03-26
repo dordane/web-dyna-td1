@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ex4</title>
+	<title>ex4a</title>
 </head>
 <body>
 	<a href="?nblignes=2&nbColonnes=2">2x2</a>
