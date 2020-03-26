@@ -7,8 +7,6 @@
 	<a href="?nblignes=2&nbColonnes=2">2x2</a>
 	<a href="?nblignes=5&nbColonnes=5">5x5</a>
 	<a href="?nblignes=10&nbColonnes=8">10x8</a>
-
-	<p style="color: red">aa</p>
 	<?php
 	echo "<table border='1'>
 	<tbody>";
@@ -22,7 +20,7 @@
 		}
 		echo "<tr>"; 
 		for($c=0;$c<=$_GET["nbColonnes"];$c++){ 
-			if (($l % 2) == 0){
+			if (($c % 2) == 1){
 				$color = "red";
 			}
 			else{
