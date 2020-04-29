@@ -12,7 +12,11 @@
 </form>
 <?php
 include("functions.php");
-element(1,1,1);
+/*createHtmlTable($_POST["lignes"]-1,$_POST["colonnes"]-1);
+*/
+parseElements($elements)
+element()
+
 ?>
 </body>
 </html>
