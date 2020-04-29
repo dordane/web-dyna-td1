@@ -3,13 +3,26 @@ namespace controllers;
  /**
  * Controller MainController
  **/
-class MainController extends ControllerBase{
+
+use ws\controllers\AbstractWsController;
+
+/**
+ * Controller MainController
+ */
+class MainController extends AbstractWsController {
     /**
  *
  * @get("_default","name"=>"Home")
  */
 public function index() {
     $this->loadView("MainController/index.html");
+    
+    $menu=$this->getMenu('Home');
+    $messages=$this->dataProvider->getMessages();
+    $content=$this->dataProvider->getPageContent('Home');
+    var_dump($menu);
+    var_dump($messages);
+    var_dump($content);
 }
 
 	/**
@@ -31,7 +44,7 @@ public function index() {
 
 
 	/**
-	 *@route("MainController/partener/{name}","methods"=>["get"])
+	 *@route("MainController/partner/{name}","methods"=>["get"])
 	**/
 	public function partnerDetails($name){
 		

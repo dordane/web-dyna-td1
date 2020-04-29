@@ -3,6 +3,7 @@
 return array(
   '#namespace' => 'controllers',
   '#uses' => array (
+  'AbstractWsController' => 'ws\\controllers\\AbstractWsController',
 ),
   '#traitMethodOverrides' => array (
   'controllers\\MainController' => 
@@ -19,7 +20,7 @@ return array(
     array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "MainController/partnerslist","methods"=>["get"],"name"=>"Partners")
   ),
   'controllers\\MainController::partnerDetails' => array(
-    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "MainController/partener/{name}","methods"=>["get"])
+    array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "MainController/partner/{name}","methods"=>["get"])
   ),
   'controllers\\MainController::sendMessage' => array(
     array('#name' => 'route', '#type' => 'Ubiquity\\annotations\\router\\RouteAnnotation', "MainController/sendMessage","methods"=>["post"])
