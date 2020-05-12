@@ -26,9 +26,8 @@ namespace controllers;
 	/**
 	 *@route("/do/inscriptiona","methods"=>["get"])
 	**/
-	public function get($name,$addrmel){
-		
-		$this->loadView('InscriptionController/get.html',['name'=>$name]);
+	public function get(){
+		$this->loadView('InscriptionController/get.html');
 
 	}
 
