@@ -9,9 +9,10 @@ return array(
 			"user"=>"root",
 			"password"=>"",
 			"options"=>array(),
-			"cache"=>false
+			"cache"=>false,
+			"wrapper"=>"Ubiquity\\db\\providers\\pdo\\PDOWrapper"
 			),
-	"sessionName"=>"s5eb3f00da709f",
+	"sessionName"=>"s5eb405144b28e",
 	"namespaces"=>array(),
 	"templateEngine"=>"Ubiquity\\views\\engine\\Twig",
 	"templateEngineOptions"=>array(
