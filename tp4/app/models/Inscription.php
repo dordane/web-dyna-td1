@@ -65,5 +65,4 @@ class Inscription{
 	 public function __toString(){
 		return ($this->dateHeure??'no value').'';
 	}
-
 }
